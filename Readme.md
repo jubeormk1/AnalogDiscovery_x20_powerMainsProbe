@@ -3,8 +3,9 @@
 This is a design initially created to look a the shape of mains outlets. I design it to check the total harmonic distortion of a generator outlet with a x20 reduction.
 
 It has two inlets to measure two active line with the same neutral, i.e. the signal before and after a power line filter. It is intended to measume only voltage up to a frequency of at least 100kHz without a significative reduction of the signal (under 3db).
- 
+
 The connector is made to be connected to an Analog Discovery Digilent Instrument. It has been design to compensate the internal impedance of this particular instrument (1MOhm, 24pF). If you have one of these you can tune it so it works at it's best.
+
 
 # Warnings
 
@@ -33,9 +34,6 @@ After tuned this circuit delivered:
 * Impedance matching to obtain an  uniform amplitude and phase frequency response from DC to at least 100kHz
 * Protection for overvoltage (varistor) rated to the used device
 
-# Scope
-
-If you use a Digilent Discovery instrument this extension board will let you measure the waveform of two monophasic power outlets with shared neutrals.
 
 # Tune procedure
 
