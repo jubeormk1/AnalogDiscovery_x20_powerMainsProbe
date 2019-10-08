@@ -99,4 +99,4 @@ Repeat this procedure for channel one and channel two. Use the channel not being
 
 Analog Discovery (R) and Waveforms(R) are Digilent trademarks.
 
-The license is described in the file 'license.md'.
+The license is described in the file 'LICENSE'.
