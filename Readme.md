@@ -1,4 +1,10 @@
+# ADVISE: This project is a work in progress
+
+This is the first version of the instruments. Please review and make constructive comments about the design. Use under your own risk for evaluation purposes only. After my internal validation the an "Stable version will be release." After I get this right more board to improve the versatility of the great [AnalogDiscovery board by Agilent](https://analogdiscovery.com/) will be release.
+
 # Introduction
+
+<img src="https://github.com/jubeormk1/AnalogDiscovery_x20_powerMainsProbe/blob/master/output/Assembled%20photo.jpeg" width="50%"/>
 
 This is a design initially created to look a the shape of mains outlets. I design it to check the total harmonic distortion of a generator outlet with a x20 reduction.
 
