@@ -4,6 +4,8 @@ This is the first version of the instruments. Please review and make constructiv
 
 # Introduction
 
+<img src="https://github.com/jubeormk1/AnalogDiscovery_x20_powerMainsProbe/blob/master/output/Assembled%20photo.jpeg" width="50%"/>
+
 This is a design initially created to look a the shape of mains outlets. I design it to check the total harmonic distortion of a generator outlet with a x20 reduction.
 
 It has two inlets to measure two active line with the same neutral, i.e. the signal before and after a power line filter. It is intended to measume only voltage up to a frequency of at least 100kHz without a significative reduction of the signal (under 3db).
