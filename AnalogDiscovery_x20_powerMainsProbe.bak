@@ -676,7 +676,6 @@ NoConn ~ 8100 1350
 NoConn ~ 8100 2350
 NoConn ~ 8100 2450
 NoConn ~ 9550 2450
-NoConn ~ 9550 2350
 NoConn ~ 1900 5200
 NoConn ~ 1450 2350
 Wire Wire Line
@@ -699,4 +698,49 @@ Text Notes 7550 850  0    50   ~ 0
 Analog Discovery connector
 Text Notes 7000 6500 0    50   ~ 10
 (C) Analog Discovery is a trademark of Digilent
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 5D9CD02E
+P 9200 4850
+F 0 "J6" H 9250 5167 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 9250 5076 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9200 4850 50  0001 C CNN
+F 3 "~" H 9200 4850 50  0001 C CNN
+	1    9200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4750 8500 4750
+Wire Wire Line
+	9000 4850 8500 4850
+Wire Wire Line
+	9000 4950 8500 4950
+Wire Wire Line
+	9500 4950 10050 4950
+Wire Wire Line
+	9500 4850 10050 4850
+Wire Wire Line
+	9500 4750 10050 4750
+Text Label 8550 4750 0    50   ~ 0
+VOUT_AWG1
+Text Label 9600 4750 0    50   ~ 0
+VOUT_AWG1
+Text Label 8550 4850 0    50   ~ 0
+VIN_SC1_P
+Text Label 9600 4850 0    50   ~ 0
+VIN_SC1_P
+Text Label 8550 4950 0    50   ~ 0
+VIN_SC2_P
+Text Label 9600 4950 0    50   ~ 0
+VIN_SC2_P
+Wire Notes Line
+	8000 4000 10500 4000
+Wire Notes Line
+	10500 4000 10500 5500
+Wire Notes Line
+	10500 5500 8000 5500
+Wire Notes Line
+	8000 5500 8000 4000
+Text Notes 8050 4100 0    50   ~ 0
+Tunning connector
 $EndSCHEMATC

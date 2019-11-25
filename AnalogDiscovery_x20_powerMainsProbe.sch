@@ -17,13 +17,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x15_Odd_Even J1
 U 1 1 5D94C9D0
-P 8750 2050
-F 0 "J1" H 8800 2967 50  0000 C CNN
-F 1 "Conn_02x15_Counter_Clockwise" H 8800 2876 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Horizontal" H 8750 2050 50  0001 C CNN
-F 3 "RS:765-5783" H 8750 2050 50  0001 C CNN
-	1    8750 2050
-	1    0    0    -1  
+P 8850 2050
+F 0 "J1" H 8900 2967 50  0000 C CNN
+F 1 "Conn_02x15_Counter_Clockwise" H 8900 2876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Horizontal" H 8850 2050 50  0001 C CNN
+F 3 "RS:765-5783" H 8850 2050 50  0001 C CNN
+	1    8850 2050
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9050 2750 9550 2750
@@ -81,36 +81,6 @@ Text Label 8100 2150 0    50   ~ 0
 TRIG_2
 Text Label 8100 2050 0    50   ~ 0
 DIO_8
-Wire Wire Line
-	8100 2750 8550 2750
-Wire Wire Line
-	8100 2650 8550 2650
-Wire Wire Line
-	8100 2550 8550 2550
-Wire Wire Line
-	8100 2450 8550 2450
-Wire Wire Line
-	8100 2350 8550 2350
-Wire Wire Line
-	8100 2250 8550 2250
-Wire Wire Line
-	8100 2150 8550 2150
-Wire Wire Line
-	8100 2050 8550 2050
-Wire Wire Line
-	8100 1950 8550 1950
-Wire Wire Line
-	8100 1850 8550 1850
-Wire Wire Line
-	8100 1750 8550 1750
-Wire Wire Line
-	8100 1650 8550 1650
-Wire Wire Line
-	8100 1550 8550 1550
-Wire Wire Line
-	8100 1450 8550 1450
-Wire Wire Line
-	8100 1350 8550 1350
 Text Label 9150 2250 0    50   ~ 0
 GND
 Text Label 9150 2150 0    50   ~ 0
@@ -743,4 +713,34 @@ Wire Notes Line
 	8000 5500 8000 4000
 Text Notes 8050 4100 0    50   ~ 0
 Tunning connector
+Wire Wire Line
+	8100 1350 8550 1350
+Wire Wire Line
+	8100 1450 8550 1450
+Wire Wire Line
+	8100 1550 8550 1550
+Wire Wire Line
+	8100 1650 8550 1650
+Wire Wire Line
+	8100 1750 8550 1750
+Wire Wire Line
+	8100 1850 8550 1850
+Wire Wire Line
+	8100 1950 8550 1950
+Wire Wire Line
+	8100 2050 8550 2050
+Wire Wire Line
+	8100 2150 8550 2150
+Wire Wire Line
+	8100 2250 8550 2250
+Wire Wire Line
+	8100 2350 8550 2350
+Wire Wire Line
+	8100 2450 8550 2450
+Wire Wire Line
+	8100 2550 8550 2550
+Wire Wire Line
+	8100 2650 8550 2650
+Wire Wire Line
+	8100 2750 8550 2750
 $EndSCHEMATC
