@@ -143,7 +143,7 @@ U 1 1 5D9645AD
 P 3700 1950
 F 0 "RV2" V 3585 1950 50  0000 C CNN
 F 1 "500k" V 3494 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 3700 1950 50  0001 C CNN
+F 2 "my_footprint_library:Potentiometer_Bourns_3306P-1-504" H 3700 1950 50  0001 C CNN
 F 3 "RS:488-5388" H 3700 1950 50  0001 C CNN
 	1    3700 1950
 	0    -1   -1   0   
@@ -294,7 +294,7 @@ U 1 1 5D992525
 P 4150 4800
 F 0 "RV3" V 4035 4800 50  0000 C CNN
 F 1 "500k" V 3944 4800 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 4150 4800 50  0001 C CNN
+F 2 "my_footprint_library:Potentiometer_Bourns_3306P-1-504" H 4150 4800 50  0001 C CNN
 F 3 "RS:488-5388" H 4150 4800 50  0001 C CNN
 	1    4150 4800
 	0    -1   -1   0   
